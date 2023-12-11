@@ -1,0 +1,5 @@
+!python detect.py --weights /content/yolov5/runs/train/exp/weights/last.pt --
+img 640 --conf 0.6 --source lapoule3.jpg
+
+from utils.plots import plot_results;
+Image(filename='/content/yolov5/runs/detect/exp/lapoule3.jpg', width=1000)
